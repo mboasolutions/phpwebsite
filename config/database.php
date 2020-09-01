@@ -12,7 +12,7 @@ try {
 
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $db->query('SELECT * FROM users');
-var_dump($db);
+
 }catch (PDOException $e){
     die('Error :'.$e->getMessage());
 }
