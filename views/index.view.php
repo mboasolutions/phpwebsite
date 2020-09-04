@@ -11,7 +11,7 @@
             Grace a cette plate forme, vous avez la possibilite de tisser des liens d'amitie avec d'autres developpeurs,
             echanger les codes sources, recevoir de l'aide si vous rencontrez des problemes sur l'un de vos projets
             et bien plus encore !<br>
-            Alors n'hesitez plus et <a href="register.php">rejoignez des maintenant la communaute Boom</a> ! ♺<br></p>
+            Alors n'hesitez plus et <a href="register.php"><strong>rejoignez des maintenant la communaute Boom</strong></a> ! ♺<br></p>
         <a href="register.php">
             <button class="btn btn-primary">Creer un compte</button>
         </a>
