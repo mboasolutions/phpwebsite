@@ -2,18 +2,488 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bb9ed5d-db34-4d9c-a1be-76dfe0e6ef5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activation.php" beforeDir="false" afterPath="$PROJECT_DIR$/activation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/constants.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/_footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/UPGRADE-2.0.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/UPGRADE-2.1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/UPGRADE-2.2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/DOCS-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/LICENSE-MIT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/js/affix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/js/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/js/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/js/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/js/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/js/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/js/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/js/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/js/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/js/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/js/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/badges.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/bootstrap.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/breadcrumbs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/button-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/carousel.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/close.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/code.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/component-animations.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/dropdowns.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/glyphicons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/grid.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/input-groups.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/jumbotron.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/labels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/list-group.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/media.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/modals.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/navbar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/navs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/normalize.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/pager.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/pagination.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/panels.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/popovers.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/print.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/progress-bars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/responsive-utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/scaffolding.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/tables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/thumbnails.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/tooltip.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/type.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/utilities.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/bootstrap/less/wells.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/expect.js/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/expect.js/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/expect.js/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/expect.js/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/expect.js/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/expect.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/expect.js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/expect.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/expect.js/support/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/expect.js/test/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/expect.js/test/expect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/expect.js/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/MIT-LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/ajax/jsonp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/ajax/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/ajax/parseJSON.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/ajax/parseXML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/ajax/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/ajax/var/nonce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/ajax/var/rquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/ajax/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/attributes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/attributes/attr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/attributes/classes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/attributes/prop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/attributes/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/attributes/val.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/callbacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/core/access.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/core/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/core/parseHTML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/core/ready.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/css/addGetHookIf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/css/curCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/css/defaultDisplay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/css/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/css/swap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/css/var/cssExpand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/css/var/getStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/css/var/isHidden.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/css/var/rmargin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/data/Data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/data/accepts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/data/var/data_priv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/data/var/data_user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/deprecated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/dimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/effects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/effects/Tween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/effects/animatedSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/event/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/event/alias.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/event/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/exports/amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/exports/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/intro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/manipulation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/manipulation/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/manipulation/var/rcheckableType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/outro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/queue/delay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/selector-native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/selector-sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/serialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/sizzle/dist/sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/sizzle/dist/sizzle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/sizzle/dist/sizzle.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/traversing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/traversing/findFilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/var/arr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/var/class2type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/var/concat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/var/hasOwn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/var/indexOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/var/pnum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/var/push.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/var/rnotwhite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/var/slice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/var/strundefined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/var/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/var/toString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/jquery/src/wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/mocha/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/mocha/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/mocha/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/mocha/.mailmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/mocha/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/mocha/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/mocha/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/mocha/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/mocha/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/mocha/media/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/mocha/mocha.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/mocha/mocha.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/mocha/scripts/ensure-compatible-npm.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/sinonjs/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/sinonjs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/sinonjs/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/sinonjs/sinon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/uwidget/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/uwidget/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/uwidget/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/uwidget/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/uwidget/uwidget.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/uwidget/uwidget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/bower_components/uwidget/uwidget.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/al.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/cs.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/de.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/el.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/en.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/fi.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/fr.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/he.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/hr.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/hu.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/id.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/it.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/ja.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/lt.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/lv.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/ms.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/nl.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/pt-pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/ro.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/ru.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/sk.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/sl.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/sr.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/sv.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/th.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/tk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/ua.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/ua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/uk.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/ur.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/zh_cn.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/zh_cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/i18n/zh_tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/parsley.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/parsley.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/parsley.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/dist/parsley.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/constraint.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/defaults.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/docco.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/factory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/field.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/multiple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/public/fonts/aller-bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/public/fonts/aller-bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/public/fonts/aller-bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/public/fonts/aller-light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/public/fonts/aller-light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/public/fonts/aller-light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/public/fonts/novecento-bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/public/fonts/novecento-bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/public/fonts/novecento-bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/public/stylesheets/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/pubsub.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/remote.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/ui.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/utils.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/validator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/annotated-source/validator_registry.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/assets/docs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/assets/docs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/assets/docs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/assets/example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/assets/help.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/assets/help.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/assets/spec-build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/examples.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/examples/ajax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/examples/custom-validator-events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/examples/customvalidator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/examples/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/examples/multisteps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/examples/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/help.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/doc/tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/gulpfile.babel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/extra/plugin/bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/extra/validator/comparison.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/extra/validator/date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/extra/validator/dateiso.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/extra/validator/luhn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/extra/validator/notequalto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/extra/validator/words.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/al.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/cs.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/de.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/el.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/en.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/fi.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/fr.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/he.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/hr.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/hu.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/id.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/it.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/ja.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/lt.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/lv.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/ms.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/nl.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/pt-pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/ro.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/ru.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/sk.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/sl.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/sr.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/sv.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/th.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/tk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/ua.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/ua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/uk.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/ur.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/zh_cn.extra.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/zh_cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/i18n/zh_tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/parsley.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/parsley.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/parsley/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/parsley/constraint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/parsley/defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/parsley/factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/parsley/field.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/parsley/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/parsley/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/parsley/multiple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/parsley/pubsub.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/parsley/remote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/parsley/ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/parsley/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/parsley/validator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/parsley/validator_registry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/src/vendor/inputevent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/runner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/setup/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/setup/browser_setup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/setup/dom_leak_check.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/setup/expect_warning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/setup/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/setup/node_setup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/setup/setup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/unit/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/unit/extra/bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/unit/extra/comparison.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/unit/extra/dateiso.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/unit/extra/words.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/unit/field.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/unit/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/unit/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/unit/multiple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/unit/parsley.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/unit/pubsub.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/unit/remote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/unit/ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/unit/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/unit/validator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/test/unit/validator_registry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/tools/mocha_options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/tools/rollup_options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/Parsley.js-2.9.2/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/parsley/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/parsley/constraint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/parsley/defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/parsley/factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/parsley/field.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/parsley/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/parsley/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/parsley/multiple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/parsley/pubsub.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/parsley/remote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/parsley/ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/parsley/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/parsley/validator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraries/parsley/parsley/validator_registry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partials/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/_header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partials/_nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/_nav.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/emails/activation.tmpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/emails/activation.tmpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/register.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +494,13 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,6 +557,9 @@
       <workItem from="1599074273565" duration="6414000" />
       <workItem from="1599122559365" duration="9169000" />
       <workItem from="1599220512665" duration="12566000" />
+      <workItem from="1599261177751" duration="13851000" />
+      <workItem from="1599327401297" duration="64416000" />
+      <workItem from="1599469761089" duration="1785000" />
     </task>
     <servers />
   </component>
@@ -107,10 +587,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598589551068" />
-    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1599132693405">
+    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1599423993274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599132693405" />
+    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599423993274" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1598933746950">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

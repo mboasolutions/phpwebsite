@@ -2,6 +2,7 @@
 
 session_start();
 
+require ('filters/guest_filter.php');
 require('includes/functions.php');
 require('config/database.php');
 require('includes/constants.php');
@@ -55,7 +56,7 @@ if (isset($_POST['register'])) {
             $to = $email;
             $subject = WEBSITE_NAME . " - ACTIVATION DE COMPTE";
             $password = password_hash($password, PASSWORD_DEFAULT);
-            $token = password_hash(($pseudo . $email . $password), PASSWORD_DEFAULT);
+            $token = password_hash($pseudo . $email . $password, PASSWORD_DEFAULT);
 
             ob_start();
             require('templates/emails/activation.tmpl.php');

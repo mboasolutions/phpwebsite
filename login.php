@@ -2,6 +2,7 @@
 
 session_start();
 
+require ('filters/guest_filter.php');
 require('includes/functions.php');
 require('config/database.php');
 require('includes/constants.php');
@@ -17,7 +18,7 @@ if (isset($_POST['login'])) {
 
         extract($_POST);
 
-        $q = $db->prepare("SELECT id, password FROM users 
+        $q = $db->prepare("SELECT id, pseudo, password FROM users 
                                     WHERE (pseudo=:identifiant OR email=:identifiant)
                                     AND active='1'");
 
@@ -26,7 +27,7 @@ if (isset($_POST['login'])) {
             //'password'=>password_hash(($password), PASSWORD_DEFAULT)
         ]);
 
-        $data = $q->fetch(PDO::FETCH_OBJ);
+        $user = $q->fetch(PDO::FETCH_OBJ);
 
         $userHasBeenFound = $q->rowCount();
 
@@ -39,8 +40,12 @@ if (isset($_POST['login'])) {
         }else{
             echo '<h3> FALSE </h3>';
         }*/
-        if ($userHasBeenFound && password_verify($password, $data->password)) {
-            redirect('profile.php');
+        if ($userHasBeenFound && password_verify($password, $user->password)) {
+
+            $_SESSION['user_id'] = $user->id;
+            $_SESSION['pseudo'] = $user->pseudo;
+
+            redirect('profile.php?id='.$user->id);
         } else {
             set_flash('Combinaison identifiant / Mot de passe incorrect', 'danger');
             save_input_data();

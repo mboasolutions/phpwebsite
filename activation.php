@@ -2,6 +2,7 @@
 
 session_start();
 
+require ('filters/guest_filter.php');
 require('includes/functions.php');
 require('config/database.php');
 
@@ -27,6 +28,9 @@ if ((!empty($_GET['p'])) &&
 
         $q = $db->prepare('UPDATE users SET active="1" WHERE pseudo=?');
         $q->execute([$pseudo]);
+
+        set_flash('Votre compte a ete bel et bien active');
+
         redirect('login.php');
 
     } else {

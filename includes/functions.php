@@ -11,6 +11,73 @@ if (!function_exists('e')) {
 }
 
 
+if (!function_exists('is_logged_in')) {
+    function is_logged_in()
+    {
+        return isset($_SESSION['user_id']) || isset($_SESSION['pseudo']);
+    }
+}
+
+
+if (!function_exists('get_session')) {
+    function get_session($key)
+    {
+        if ($key) {
+            return !empty($_SESSION[$key])
+                ? e($_SESSION[$key])
+                : null;
+        }
+    }
+}
+
+
+if (!function_exists('get_avatar_url')) {
+    function get_avatar_url($email)
+    {
+        return "http://gravatar.com/avatar/" . md5(strtolower(trim(e($email))));
+    }
+}
+
+
+if (!function_exists('fin_user_by_id')) {
+    function fin_user_by_id($id)
+    {
+        global $db;
+
+        $q = $db->prepare("SELECT name, pseudo, email, city, country, sex, twitter, github, bio, available_for_hiring FROM users WHERE id = ?");
+        $q->execute([$id]);
+
+        $data = $q->fetch(PDO::FETCH_OBJ);
+
+        $q->closeCursor();
+
+        return $data;
+
+    }
+}
+
+
+if (!function_exists('fin_code_by_id')) {
+    function fin_code_by_id($id)
+    {
+        global $db;
+
+            $q = $db->prepare('SELECT code FROM codes 
+                                    WHERE id=?');
+
+            $q->execute([$id]);
+
+            $data = $q->fetch(PDO::FETCH_OBJ);
+
+            $q->closeCursor();
+
+            return $data;
+
+    }
+
+}
+
+
 if (!function_exists('not_empty')) {
     function not_empty($fields = [])
     {
@@ -96,16 +163,16 @@ if (!function_exists('clear_input_data')) {
 
 
 if (!function_exists('set_active')) {
-    function set_active($file, $class='active')
+    function set_active($file, $class = 'active')
     {
         //$page = array_pop(explode('/', $_SERVER['SCRIPT_NAME']));
         //$page = trim(strrchr($file, '/'), '/');
         $path = $_SERVER['SCRIPT_NAME'];
         $page = trim(strrchr($path, '/'), '/');
-        if ($page == $file.'.php') {
+        if ($page == $file . '.php') {
 
             return $class;
-        }else{
+        } else {
             return "";
         }
     }
