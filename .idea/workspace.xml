@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bb9ed5d-db34-4d9c-a1be-76dfe0e6ef5e" name="Default Changelist" comment="" />
+    <list default="true" id="2bb9ed5d-db34-4d9c-a1be-76dfe0e6ef5e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/_nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/_nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share_code.php" beforeDir="false" afterPath="$PROJECT_DIR$/share_code.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/profile.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/profile.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/share_code.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/share_code.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/show_code.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/show_code.view.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +90,8 @@
       <workItem from="1599220512665" duration="12566000" />
       <workItem from="1599261177751" duration="13851000" />
       <workItem from="1599327401297" duration="64416000" />
-      <workItem from="1599469761089" duration="2038000" />
+      <workItem from="1599469761089" duration="25022000" />
+      <workItem from="1599557836086" duration="580000" />
     </task>
     <servers />
   </component>
@@ -104,13 +119,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598589551068" />
-    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1599423993274">
+    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1599547843889">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599423993274" />
+    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599547843889" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1598933746950">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1598933746950" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1599499557351">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1599499557351" />
   </component>
 </project>

@@ -6,12 +6,7 @@
 
     <div class="jumbotron">
         <h1><?= WEBSITE_NAME;?></h1>
-        <p class="lead"><?= WEBSITE_NAME;?> est le reseau social des developpeurs ⌨<br>
-            et qui dit developpeur, dit egalement code source ! ✍
-            Grace a cette plate forme, vous avez la possibilite de tisser des liens d'amitie avec d'autres developpeurs,
-            echanger les codes sources, recevoir de l'aide si vous rencontrez des problemes sur l'un de vos projets
-            et bien plus encore !<br>
-            Alors n'hesitez plus et <a href="register.php"><strong>rejoignez des maintenant la communaute Boom</strong></a> ! ♺<br></p>
+        <p class="lead"><?= WEBSITE_NAME;?> <?= $long_text['accueil_intro'][$_SESSION['locale']] ?> </p>
         <a href="register.php">
             <button class="btn btn-primary">Creer un compte</button>
         </a>

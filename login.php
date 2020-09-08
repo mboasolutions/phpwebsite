@@ -2,6 +2,7 @@
 
 session_start();
 
+require ('bootstrap/locale.php');
 require ('filters/guest_filter.php');
 require('includes/functions.php');
 require('config/database.php');
@@ -18,7 +19,7 @@ if (isset($_POST['login'])) {
 
         extract($_POST);
 
-        $q = $db->prepare("SELECT id, pseudo, password FROM users 
+        $q = $db->prepare("SELECT id, pseudo, email, password FROM users 
                                     WHERE (pseudo=:identifiant OR email=:identifiant)
                                     AND active='1'");
 
@@ -44,6 +45,7 @@ if (isset($_POST['login'])) {
 
             $_SESSION['user_id'] = $user->id;
             $_SESSION['pseudo'] = $user->pseudo;
+            $_SESSION['email'] = $user->email;
 
             redirect('profile.php?id='.$user->id);
         } else {

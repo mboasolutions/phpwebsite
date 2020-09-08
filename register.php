@@ -2,6 +2,7 @@
 
 session_start();
 
+require ('bootstrap/locale.php');
 require ('filters/guest_filter.php');
 require('includes/functions.php');
 require('config/database.php');

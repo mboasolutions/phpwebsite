@@ -63,6 +63,7 @@
                     </div>
             </div>
         </div>
+        <?php if(!empty($_GET['id']) && $_GET['id'] === get_session('user_id')): ?>
         <div class="col-md-6">
             <div class="card text-white bg-secondary mb-6" style="max-width: 32rem;"">
                 <div class="card-header">
@@ -162,6 +163,7 @@
                 </div>
             </div>
         </div>
+        <?php endif;?>
     </div>
 
 </main>

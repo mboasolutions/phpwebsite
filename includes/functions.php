@@ -11,6 +11,14 @@ if (!function_exists('e')) {
 }
 
 
+if (!function_exists('get_current_locale')) {
+    function get_current_locale()
+    {
+         return $_SESSION['locale'];
+    }
+}
+
+
 if (!function_exists('is_logged_in')) {
     function is_logged_in()
     {
@@ -32,9 +40,9 @@ if (!function_exists('get_session')) {
 
 
 if (!function_exists('get_avatar_url')) {
-    function get_avatar_url($email)
+    function get_avatar_url($email, $size = 25)
     {
-        return "http://gravatar.com/avatar/" . md5(strtolower(trim(e($email))));
+        return "http://gravatar.com/avatar/" . md5(strtolower(trim(e($email)))."?s=".$size);
     }
 }
 

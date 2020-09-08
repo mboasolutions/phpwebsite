@@ -31,7 +31,7 @@
 <div id="main-content">
     <div id="main-content-share-code">
         <form method="post" autocomplete="off">
-            <textarea class="form-control" id="code" name="code" required="required" placeholder="Entrer votre code ici..."><?= $code; ?></textarea>
+            <textarea class="form-control" id="code" name="code" required="required" placeholder="Entrer votre code ici..."><?= e($code); ?></textarea>
             <div class="btn-group nav">
                 <a href="share_code.php" class="btn btn-danger">Tout effacer</a>
                 <input type="submit" class="btn btn-success" value="Enregistrer" name="save"/>
