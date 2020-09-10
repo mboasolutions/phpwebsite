@@ -5,6 +5,7 @@ MAIN BODY
 *********************/
 body {
     padding-top: 70px;
+
 }
 
 /*********************
@@ -49,14 +50,21 @@ textarea.parsley-error {
 /*********************
 PARTAGE DE CODE SOURCE
 *********************/
-#main-content-share-code{
+#test{
+  size: 100px;
+  color: #c51926;
+  background-color: rgba(95, 243, 232, 0.78);
+}
 
-  padding-top: 1em;
-  padding-left: 8px;
+.code-nav
+{
+  top: 10px;
+  right: 10px;
   position: relative;
 }
 
-#code{
+#code
+{
   font-family: "Source Code Pro", sans-serif;
   width: 100%;
   min-height: 400px;
@@ -65,15 +73,32 @@ PARTAGE DE CODE SOURCE
   background-color: #000;
   color: #c5c5c5;
   resize: none;
-  font-size: 14px;
-  overflow: hidden;
+  font-size: 18px;
 }
 
-/*.form-group {*/
-/*  width: 100px;*/
-/*}*/
+#main-content-share-code{
+  padding-top: 1em;
+  padding-left: 8px;
+  position: relative;
+}
 
-textarea {
-  width: 300px;
-  height: 150px;
+#main-content-show-code{
+  font-family: "Source Code Pro", sans-serif;
+  padding-top: 1em;
+  padding-left: 8px;
+  position: relative;
+  background-color: #000;
+  font-size: 18px;
+}
+
+.users {
+  margin-bottom: 3em;
+}
+
+.user-block {
+  text-align: center;
+}
+
+.avatar {
+  margin: auto;
 }

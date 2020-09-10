@@ -7,51 +7,76 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav ml-auto mr-5">
-            <li class="nav-item <?= set_active('index') ?>">
-                <a class="nav-link" href="index.php"><?= $menu['accueil'][$_SESSION['locale']] ?> <span class="sr-only">(current)</span></a>
+        <ul class="navbar-nav">
+            <li class="nav-item <?= set_active('list_users') ?>">
+                <a class="nav-link" href="list_users.php"><?= $menu['liste-user'][$_SESSION['locale']] ?></a>
             </li>
-
-            <?php if (is_logged_in()) : ;?>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        </ul>
+        <ul class="navbar-nav ml-auto mr-5">
+            <?php if (is_logged_in()) : ?>
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img src="<?= get_avatar_url(get_session('email')) ?>" alt="Image de profile de <?= get_session('pseudo') ?>" class="img-circle" width="20" height="20""></a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <ul class="navbar-nav">
                         <li class="nav-item <?= set_active('profile') ?>">
-                            <a class="nav-link" href="profile.php?id="<?= get_session('user_id') ?>><?= $menu['mon-profil'][$_SESSION['locale']] ?><span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item <?= set_active('share_code') ?>">
-                            <a class="nav-link" href="share_code.php"><?= $menu['share_code'][$_SESSION['locale']] ?><span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="logout.php"><?= $menu['deconnexion'][$_SESSION['locale']] ?><span class="sr-only">(current)</span></a>
+                           <a class="dropdown-item" href="profile.php?id=<?= get_session('user_id') ?>"><?= $menu['mon-profil'][$_SESSION['locale']] ?></a>
                         </li>
                     </ul>
-                </li>
+                    <ul class="navbar-nav">
+                        <li class="nav-item <?= set_active('edit_user') ?>">
+                            <a class="dropdown-item" href="edit_user.php?id=<?= get_session('user_id') ?>"><?= $menu['editer-profil'][$_SESSION['locale']] ?></a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item <?= set_active('share_code') ?>">
+                            <a class="dropdown-item" href="share_code.php"><?= $menu['share-code'][$_SESSION['locale']] ?></a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="dropdown-item" href="logout.php"><?= $menu['deconnexion'][$_SESSION['locale']] ?></a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="dropdown-divider"></li>
+                    </ul>
 
-            <?php else : ; ?>
-                <li class="nav-item" <?= set_active('login') ?>>
-                    <a class="nav-link" href="login.php"><?= $menu['connexion'][$_SESSION['locale']] ?></a>
-                </li>
-                <li class="nav-item <?= set_active('register') ?>">
-                    <a class="nav-link" href="register.php" tabindex="-1" aria-disabled="false"><?= $menu['inscription'][$_SESSION['locale']] ?></a>
-                </li>
+                </div>
+            </li>
+
+            <?php else : ?>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item <?= set_active('login') ?>">
+                            <a class="nav-link" href="login.php"><?= $menu['connexion'][$_SESSION['locale']] ?></a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item <?= set_active('register') ?>">
+                            <a class="nav-link" href="register.php"><?= $menu['inscription'][$_SESSION['locale']] ?></a>
+                        </li>
+                    </ul>
+
 
             <?php endif ;?>
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <?= $menu['langue'][$_SESSION['locale']] ?></a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                    <li class="nav-item <?= set_active('?lang=fr') ?>">
-                        <a class="nav-link" href="?lang=fr"><img src="assets/img/french.png" alt="French" class="img-circle" width="20" height="20">&nbsp;<?= $menu['francais'][$_SESSION['locale']] ?><span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item <?= set_active('?lang=en') ?>">
-                        <a class="nav-link" href="?lang=en"><img src="assets/img/english.png" alt="English" class="img-circle" width="20" height=20">&nbsp;<?= $menu['anglais'][$_SESSION['locale']] ?><span class="sr-only">(current)</span></a>
-                    </li>
-
-                </ul>
-            </li>
+                    <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <?= $menu['langue'][$_SESSION['locale']] ?></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <ul class="navbar-nav">
+                            <li class="nav-item <?= set_active('?lang=fr') ?>">
+                                <a class="dropdown-item" href="?lang=fr"><img src="assets/img/french.png" alt="French" class="img-circle" width="20" height="20">&nbsp;<?= $menu['francais'][$_SESSION['locale']] ?></a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="nav-item <?= set_active('?lang=en') ?>">
+                                <a class="dropdown-item" href="?lang=en"><img src="assets/img/english.png" alt="English" class="img-circle" width="20" height=20">&nbsp;<?= $menu['anglais'][$_SESSION['locale']] ?></a>
+                            </li>
+                        </ul>
+                    </div>
+             </li>
 
         </ul>
 

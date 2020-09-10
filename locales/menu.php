@@ -5,11 +5,13 @@
         'connexion' => ['fr' => 'Connexion', 'en' => 'Log in'],
         'inscription' => ['fr' => 'Inscription', 'en' => 'Register'],
         'mon-profil' => ['fr' => 'Mon profil', 'en' => 'My Account'],
-        'share_code' => ['fr' => 'Partager', 'en' => 'Share'],
+        'editer-profil' => ['fr' => 'Editer mon profil', 'en' => 'Edit my Account'],
+        'share-code' => ['fr' => 'Partager', 'en' => 'Share'],
         'deconnexion' => ['fr' => 'Deconnexion', 'en' => 'Log out'],
         'francais' => ['fr' => 'Fancais', 'en' => 'French'],
         'anglais' => ['fr' => 'Anglais', 'en' => 'English'],
-        'langue' => ['fr' => 'Langue', 'en' => 'Language']
+        'langue' => ['fr' => 'Langue', 'en' => 'Language'],
+        'liste-user' => ['fr' => 'Liste des utilisateurs', 'en' => 'Users list']
     ];
 
 

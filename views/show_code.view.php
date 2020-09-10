@@ -2,29 +2,19 @@
 <?php include('partials/_header.php'); ?>
 <!-- /.container -->
 <style>
-    @import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
-    .nav
+    .code-nav
     {
     top: 10px;
     right: 10px;
     position: absolute;
     }
-
-    #main-content-share-code{
-        font-family: "Source Code Pro", sans-serif;
-        padding-top: 1em;
-        padding-left: 8px;
-        position: relative;
-        background-color: rgba(11, 11, 25, 0.67);
-        font-size: 18px;
-    }
 </style>
 
 <div id="main-content">
     <div id="main-content-share-code">
-        <pre id="main-content-share-code" class="prettyprint linenums"><?= e($data->code) ?></pre>
+        <pre id="main-content-show-code" class="prettyprint linenums"><?= e($data->code) ?></pre>
 
-        <div class="btn-group nav">
+        <div class="btn-group code-nav">
             <a href="share_code.php?id=<?= e($_GET['id']) ?>" class="btn btn-warning">Cloner</a>
             <a href="share_code.php" class="btn btn-primary">Nouveau</a>
 
@@ -40,7 +30,7 @@
 <script src="assets/js/prettify.js"></script>
 
 <script>
-   //prettyPrint();
+   prettyPrint();
 </script>
 
 </body>

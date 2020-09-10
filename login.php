@@ -47,7 +47,7 @@ if (isset($_POST['login'])) {
             $_SESSION['pseudo'] = $user->pseudo;
             $_SESSION['email'] = $user->email;
 
-            redirect('profile.php?id='.$user->id);
+            redirect_intent_or('profile.php?id='.$user->id);
         } else {
             set_flash('Combinaison identifiant / Mot de passe incorrect', 'danger');
             save_input_data();
