@@ -11,7 +11,8 @@
         'francais' => ['fr' => 'Fancais', 'en' => 'French'],
         'anglais' => ['fr' => 'Anglais', 'en' => 'English'],
         'langue' => ['fr' => 'Langue', 'en' => 'Language'],
-        'liste-user' => ['fr' => 'Liste des utilisateurs', 'en' => 'Users list']
+        'liste-user' => ['fr' => 'Liste des utilisateurs', 'en' => 'Users list'],
+        'change-password' => ['fr' => 'Changer mon mot de passe', 'en' => 'Change my password']
     ];
 
 

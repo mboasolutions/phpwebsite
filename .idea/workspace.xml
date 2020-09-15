@@ -2,24 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bb9ed5d-db34-4d9c-a1be-76dfe0e6ef5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PHPTUTO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PHPTUTO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/activation.php" beforeDir="false" afterPath="$PROJECT_DIR$/activation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filters/auth_filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/filters/auth_filter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/offcanvas.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/holder.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/offcanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/locale.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/locale.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edit_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/edit_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/constants.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_users.php" beforeDir="false" afterPath="$PROJECT_DIR$/list_users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/locales/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/locales/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partials/_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/_footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partials/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/_header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partials/_nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/_nav.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share_code.php" beforeDir="false" afterPath="$PROJECT_DIR$/share_code.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/show_code.php" beforeDir="false" afterPath="$PROJECT_DIR$/show_code.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/edit_user.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/edit_user.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/list_users.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/list_users.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/profile.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/profile.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/share_code.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/share_code.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/show_code.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/show_code.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +122,11 @@
       <workItem from="1599660007910" duration="8749000" />
       <workItem from="1599683259358" duration="13207000" />
       <workItem from="1599729643665" duration="25083000" />
+      <workItem from="1599769540922" duration="7978000" />
+      <workItem from="1599842589801" duration="103699000" />
+      <workItem from="1600084023181" duration="7149000" />
+      <workItem from="1600112302209" duration="15535000" />
+      <workItem from="1600163529543" duration="13394000" />
     </task>
     <servers />
   </component>
@@ -133,10 +154,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598589551068" />
-    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1599683735863">
+    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1599995991067">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599683735863" />
+    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1599995991067" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1598933746950">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

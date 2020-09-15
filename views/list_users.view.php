@@ -22,8 +22,8 @@
                 <?php foreach ($user_set as $user) : ?>
                     <div class="col-md-3 user-block">
                         <a href="profile.php?id=<?= e($user->id) ?>">
-                                <img src="<?= get_avatar_url($user->email) ?>"
-                                     alt="<?= e($user->pseudo) ?>" class="avatar img-circle" width="50" height="50">
+                                <img src="<?= !empty(e($user->avatar)) ? e($user->avatar) : get_avatar_url(e($user->email)) ?>"
+                                     alt="<?= e($user->pseudo) ?>" class="avatar rounded-circle" width="50" height="50">
                         </a>
 
                         <h4 class="user-block-username">

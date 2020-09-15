@@ -3,19 +3,19 @@
 
     <!-- /.container -->
 <main role="main" class="container" xmlns="http://www.w3.org/1999/html">
-    <?php include('partials/_errors.php'); ?>
 
     <div class="row">
 
         <?php if (!empty($_GET['id']) && $_GET['id'] === get_session('user_id')): ?>
-            <div class="col-md-6" style="left:225px;">
+            <div class="col-md-6" style="left:300px;">
                 <div class="card text-white bg-secondary mb-6" style="max-width: 32rem;">
 
                 <div class="card-header">
                     <h5><b>Completer mon profile</b></h5>
                 </div>
                 <div class="card-body">
-                    <form data-parsley-validate method="post">
+                    <form data-parsley-validate method="post" enctype="multipart/form-data">
+                        <?php include('partials/_errors.php'); ?>
                         <div class="row">
                             <div class="col-md-6">
                                 <!-- Name field -->
@@ -38,7 +38,15 @@
                                 </div>
                             </div>
                         </div>
-
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- File upload field -->
+                                <div class="form-group">
+                                    <label for="avatar">Changer mon avatar</label>
+                                    <input type="file" class="form-control-file" id="avatar" name="avatar">
+                                </div>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <!-- Country field -->
@@ -115,7 +123,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary" value="Valider" name="update">Submit</button>
+                        <button type="submit" class="btn btn-primary" value="Valider" name="update">Valider</button>
                     </form>
                 </div>
             </div>
@@ -123,4 +131,7 @@
     </div>
 </main>
 
+
 <?php include('partials/_footer.php'); ?>
+
+

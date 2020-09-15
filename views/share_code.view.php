@@ -12,6 +12,7 @@
 <div id="main-content">
     <div id="main-content-share-code">
         <form method="post" autocomplete="off">
+            <?php include('partials/_errors.php'); ?>
             <textarea class="form-control" id="code" name="code" required="required" placeholder="Entrer votre code ici..."><?= e($code); ?></textarea>
             <div class="btn-group code-nav">
                 <a href="share_code.php" class="btn btn-danger">Tout effacer</a>

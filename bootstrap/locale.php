@@ -11,5 +11,11 @@
     }
 
 
-    require ('locales/menu.php');
-    require ('locales/long_text.php');
+    //require ('locales/menu.php');
+    //require ('locales/long_text.php');
+
+    // Inclure all local files
+    $locale_files = glob('locales/*');
+    foreach ($locale_files as $locale_file){
+        require $locale_file;
+    }

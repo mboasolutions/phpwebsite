@@ -3,9 +3,9 @@
 <!-- /.container -->
 <main role="main" class="container">
     <h1 class="lead">Devenez des a present membre!</h1>
-    <?php include('partials/_errors.php'); ?>
 
     <form data-parsley-validate method="post" class="well col-md-6">
+        <?php include('partials/_errors.php'); ?>
         <!-- Name field -->
         <div class="form-group">
             <label class="control-label" for="name">Nom:</label>
@@ -31,7 +31,7 @@
         <div class="form-group">
             <label class="control-label" for="password">Mot de Passe:</label>
             <input type="password" class="form-control" id="password" name="password" placeholder="Votre mot de passe"
-                   required="required">
+                   required="required" data-parsley-minlength="6">
         </div>
 
         <!-- Password Confirmation field -->

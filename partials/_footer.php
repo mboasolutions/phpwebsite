@@ -52,11 +52,43 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery-3.5.1.min.js"></script>
 <script src="libraries/parsley/parsley.min.js"></script>
+<script src="libraries/uploadify/jquery.uploadify.min.js"></script>
+<script src="assets/js/jquery.timeago.js"></script>
+<script src="assets/js/jquery.timeago.fr.js"></script>
+<!--<script src="assets/js/jquery.livequery.min.js"></script>-->
 
+<script type="text/javascript">
+    /*$(document).ready(function() {
+        $("span.timeago").timeago().livequery(function () {
+            $(this).timeago();
+        });
+
+    });*/
+    $(document).ready(function() {
+        $("span.timeago").timeago();
+    });
+</script>
 <!--<script src="libraries/parsley/i18n/fr.js"></script>
 <script type="text/javascript">
     window.ParsleyValidator.setLocale('fr');
 </script>-->
+<script type="text/javascript">
+    <?php $timestamp = time();?>
+    $(function() {
+        $('#avatar').uploadifive({
+            'auto'             : false,
+            'checkScript'      : 'libraries/uploadify/check-exists.php',
+            'fileType'         : 'image/png',
+            'formData'         : {
+                'timestamp' : '<?php echo $timestamp;?>',
+                'token'     : '<?php echo md5('unique_salt' . $timestamp);?>'
+            },
+            'queueID'          : 'queue',
+            'uploadScript'     : 'libraries/uploadify/uploadify.php',
+            'onUploadComplete' : function(file, data) { console.log(data); }
+        });
+    });
+</script>
 
 <script type="text/javascript">
     $( document ).ready(function() {

@@ -16,11 +16,16 @@
             <?php if (is_logged_in()) : ?>
             <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="<?= get_avatar_url(get_session('email')) ?>" alt="Image de profile de <?= get_session('pseudo') ?>" class="img-circle" width="20" height="20""></a>
+                        <img src="<?= !empty(get_session('avatar')) ? get_session('avatar') : get_avatar_url(get_session('email')) ?>" alt="Image de <?= get_session('pseudo') ?>" class="rounded-circle" width="20" height="20""></a>
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
                     <ul class="navbar-nav">
                         <li class="nav-item <?= set_active('profile') ?>">
                            <a class="dropdown-item" href="profile.php?id=<?= get_session('user_id') ?>"><?= $menu['mon-profil'][$_SESSION['locale']] ?></a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item <?= set_active('change_password') ?>">
+                            <a class="dropdown-item" href="change_password.php"><?= $menu['change-password'][$_SESSION['locale']] ?></a>
                         </li>
                     </ul>
                     <ul class="navbar-nav">
@@ -33,13 +38,11 @@
                             <a class="dropdown-item" href="share_code.php"><?= $menu['share-code'][$_SESSION['locale']] ?></a>
                         </li>
                     </ul>
+                <div class="dropdown-divider" ></div>
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="dropdown-item" href="logout.php"><?= $menu['deconnexion'][$_SESSION['locale']] ?></a>
                         </li>
-                    </ul>
-                    <ul class="navbar-nav">
-                        <li class="dropdown-divider"></li>
                     </ul>
 
                 </div>

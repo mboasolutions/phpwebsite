@@ -2,9 +2,9 @@
 
 session_start();
 
+require ('includes/init.php');
 require ('filters/guest_filter.php');
-require('includes/functions.php');
-require('config/database.php');
+
 
 if ((!empty($_GET['p'])) &&
     is_already_in_use('pseudo', $_GET['p'], 'users')
@@ -15,7 +15,7 @@ if ((!empty($_GET['p'])) &&
 
 
     //$q = $db->prepare('SELECT email, password, passhash FROM users WHERE pseudo=?');
-    $q = $db->prepare('SELECT passhash FROM users WHERE pseudo=?');
+    $q = $db->prepare('SELECT id, email, password, passhash FROM users WHERE pseudo=?');
     $q->execute([$pseudo]);
 
     $data = $q->fetch(PDO::FETCH_OBJ);
@@ -28,6 +28,12 @@ if ((!empty($_GET['p'])) &&
 
         $q = $db->prepare('UPDATE users SET active="1" WHERE pseudo=?');
         $q->execute([$pseudo]);
+
+        $q = $db->prepare('INSERT INTO friends_relationships(user_id1, user_id2, status) 
+                                    VALUES(? , ? ,?)');
+
+        $q->execute([$data->id, $data->id, '2' ]);
+
 
         set_flash('Votre compte a ete bel et bien active');
 
