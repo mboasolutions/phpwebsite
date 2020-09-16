@@ -1,3 +1,9 @@
+<style>
+    li.have_notifs a{
+        color: red !important;
+        font-weight: bold;
+    }
+</style>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="index.php"><?= WEBSITE_NAME; ?></a>
@@ -46,6 +52,11 @@
                     </ul>
 
                 </div>
+            </li>
+            <li class="<?= $notifications_count > 0 ? 'have_notifs' : '' ?>">
+                <a href="notifications.php"><i class="fa fa-bell"></i>
+                    <?= $notifications_count > 0 ? "($notifications_count)" : ''; ?>
+                </a>
             </li>
 
             <?php else : ?>

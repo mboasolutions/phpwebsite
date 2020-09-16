@@ -9,6 +9,10 @@
         <p><?= nl2br(replace_links(e($micropost->content))) ?></p>
     </div>
     <div class="card-footer">
-        <p><i class="fa fa-clock-o"></i>&nbsp;<span class="timeago" title="<?= e($micropost->created_at) ?>"><?= e($micropost->created_at) ?></span></p>
+        <p><i class="fa fa-clock-o"></i>&nbsp;<span class="timeago" title="<?= e($micropost->created_at) ?>"><?= e($micropost->created_at) ?></span>
+            <?php if (!empty($_GET['id']) && $_GET['id'] == get_session('user_id')): ?>
+                <a data-confirm="Voulez-vous vraiment supprimer cette publication ?" href="delete_micropost.php?id=<?= $micropost->id ?>">&nbsp;<i class="fa fa-trash"></i> Supprimer</a>
+            <?php endif; ?>
+        </p>
     </div>
 </div>

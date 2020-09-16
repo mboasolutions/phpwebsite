@@ -20,7 +20,17 @@ if (!empty($_GET['id']) && $_GET['id'] !== get_session('user_id')){
         'user_id2'=>$id
     ]);
 
-    set_flash("Votre demande d'amitie a ete accepter avec succes !");
+
+    $q = $db->prepare('INSERT INTO notifications(subject_id, name, user_id) 
+                                VALUES(:subject_id, :name, :user_id)');
+    $q->execute([
+        'subject_id' => $id,
+        'name' => 'friend_request_accepted',
+        'user_id' => get_session('user_id'),
+        ]);
+
+
+    set_flash("Vous êtes à présent ami avec cet utilisateur !");
     redirect('profile.php?id='.$id);
 
 }else{

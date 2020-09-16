@@ -22,14 +22,17 @@
     <!--    <link rel="stylesheet" href="assets/css/font-awesome.min.css">-->
     <!--    <link rel="stylesheet" href="assets/css/bootstrap.min.css">-->
 
-<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/superhero/bootstrap.min.css" integrity="sha384-HnTY+mLT0stQlOwD3wcAzSVAZbrBp141qwfR4WfTqVQKSgmcgzk+oP0ieIyrxiFO" crossorigin="anonymous">-->
+    <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/superhero/bootstrap.min.css" integrity="sha384-HnTY+mLT0stQlOwD3wcAzSVAZbrBp141qwfR4WfTqVQKSgmcgzk+oP0ieIyrxiFO" crossorigin="anonymous">-->
+    <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cyborg/bootstrap.min.css" integrity="sha384-nEnU7Ae+3lD52AK+RGNzgieBWMnEfgTbRHIwEvp1XXPdqdO6uLTd/NwXbzboqjc2" crossorigin="anonymous">-->
 
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<!--<link rel="stylesheet" href="libraries/sweetalert/sweetalert.css">-->
+    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/prettify.css">
     <link rel="stylesheet" href="assets/css/uploadify.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cyborg/bootstrap.min.css" integrity="sha384-nEnU7Ae+3lD52AK+RGNzgieBWMnEfgTbRHIwEvp1XXPdqdO6uLTd/NwXbzboqjc2" crossorigin="anonymous">-->
-
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libraries/sweetalert/sweetalert2.min.css">
+    <link rel="stylesheet" href="libraries/sweetalert/animate.min.css">
+    <link rel="stylesheet" href="libraries/sweetalert/default.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lte IE 9]>

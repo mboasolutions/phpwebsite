@@ -36,7 +36,6 @@ if ($nbre_total_users > 1){
                                         WHERE active='1' ORDER BY pseudo $limit");
     $users = $q->fetchAll(PDO::FETCH_OBJ);
 
-
     $pagination = '<nav><ul class="pagination justify-content-center">';
 
     if ($last_page != 1) {

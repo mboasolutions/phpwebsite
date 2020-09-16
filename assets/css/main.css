@@ -139,3 +139,13 @@ PARTAGE DE CODE SOURCE
 .micropost {
   background-color: #36e4ff;
 }
+
+
+li.have_notifs a{
+  color: red !important;
+  font-weight: bold;
+}
+
+.not_seen{
+  background-color: #f2f2f2;
+}

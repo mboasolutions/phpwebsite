@@ -17,7 +17,7 @@ if (!empty($_GET['id'])){
         redirect('index.php');
     }else{
 
-        $q = $db->prepare("SELECT content, created_at 
+        $q = $db->prepare("SELECT id, content, created_at 
                                     FROM microposts 
                                     WHERE user_id = :user_id 
                                     ORDER BY created_at 
