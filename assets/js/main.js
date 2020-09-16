@@ -1,28 +1,28 @@
 $(document).ready(function () {
-    $('[data-confirm]')
-        .on('click', function (e) {
-            e.preventDefault();
-            var href = $(this).attr('href');
-            var message = $(this).data('confirm');
-            Swal.fire({
-                title: "Êtes-vous sûr?",
-                text: message, //Utiliser la valeur de data-confirm comme text
-                type: "warning",
-                showCancelButton: true,
-                cancelButtonText: "Annuler",
-                confirmButtonText: "Oui",
-                confirmButtonColor: "#DD6B55"
-                }, function (isConfirm) {
-                if (isConfirm) {
-                    //Si l'utilisateur clique sur Oui,
-                    // Il faudra le rediriger l'utilisateur vers la page
-                    // de suppression
-                    window.location.href = href;
-                }
+    $('[data-confirm]').on('click', function(e){
+        e.preventDefault();
+        var href = $(this).attr('href');
+        var message = $(this).data('confirm');
 
-            });
-        });
+        Swal.fire({
+            title: 'Êtes-vous sûr?',
+            text: message,
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Oui',
+            cancelButtonText: 'Annuler'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                Swal.fire(
+                    window.location.href = href
+                )
+            }
+        })
+
     });
+});
 
 
     $(document).ready(function () {
@@ -58,17 +58,3 @@ $(document).ready(function () {
 
         Parsley.setLocale('fr');
     });
-
-
-
-/*$('#myTab a').click(function(e) {
-    e.preventDefault();
-    $(this).tab('show');
-});*/
-
-/*$(document).ready(function() {
-        $("span.timeago").timeago().livequery(function () {
-            $(this).timeago();
-        });
-
-});*/

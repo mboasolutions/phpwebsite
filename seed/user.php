@@ -29,7 +29,7 @@ $faker = Faker\Factory::create();
         $q = $db->prepare("INSERT INTO friends_relationships(user_id1, user_id2, status) 
                                     VALUES(?, ?, ?)");
         $q->execute([$id, $id, '2']);
-        
+
     }
 
     echo 'Users added !!!';
