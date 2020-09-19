@@ -24,11 +24,7 @@
     });
 
 
-
-
     $("span.timeago").timeago();
-
-
 
 
     Parsley.addMessages('fr', {
@@ -59,8 +55,6 @@
     Parsley.setLocale('fr');
 
 
-
-
     $('a.like').on('click', function(e){
         e.preventDefault();
 
@@ -88,37 +82,6 @@
         });
 
     });
-
-
-
-    /*$('#searchbox').on('keyup', function(){
-
-        var query = $(this).val();
-        var url = 'ajax/search.php';
-
-        if (query.length > 0){
-            $.ajax({
-                type: 'POST',
-                url: url,
-                data: {
-                    query: query
-                },
-
-                success: function f(data) {
-                    $('#display-results').html(data).show();
-                    $('#spinner').show();
-                },
-
-
-            });
-
-        }else{
-            $('#display-results').hide();
-            $('#spinner').hide();
-        }
-
-
-    });*/
 
 
     // Define our button click listener
@@ -156,4 +119,4 @@
     });
 
 
-   
+

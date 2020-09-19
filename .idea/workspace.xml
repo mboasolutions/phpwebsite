@@ -3,18 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2bb9ed5d-db34-4d9c-a1be-76dfe0e6ef5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/loading.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/loading.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microposts.php" beforeDir="false" afterPath="$PROJECT_DIR$/microposts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/_micropost.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/_micropost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/_nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/partials/_nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share_code.php" beforeDir="false" afterPath="$PROJECT_DIR$/share_code.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/profile.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/profile.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/show_code.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/show_code.view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +122,7 @@
       <workItem from="1600363315276" duration="29682000" />
       <workItem from="1600425526239" duration="5585000" />
       <workItem from="1600438836301" duration="1092000" />
-      <workItem from="1600451050837" duration="20365000" />
+      <workItem from="1600451050837" duration="22234000" />
     </task>
     <servers />
   </component>
