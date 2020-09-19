@@ -12,7 +12,7 @@
 
 <div id="main-content">
     <div id="main-content-share-code">
-        <pre id="main-content-show-code" class="prettyprint linenums"><?= e($data->code) ?></pre>
+        <pre id="main-content-show-code" class="prettyprint"><?= e($data->code) ?></pre>
 
         <div class="btn-group code-nav">
             <a href="share_code.php?id=<?= e($_GET['id']) ?>" class="btn btn-warning">Cloner</a>

@@ -18,7 +18,7 @@ if (!empty($_GET['id'])){
     }else{
 
         $q = $db->prepare("SELECT U.id user_id, U.pseudo, U.email, U.avatar, 
-                                    M.id m_id, M.content, M.created_at 
+                                    M.id m_id, M.content, M.like_count, M.created_at 
                                     FROM users U, microposts M, friends_relationships F 
                                     WHERE M.user_id = U.id 
                                     AND 

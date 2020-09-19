@@ -38,6 +38,8 @@ if (isset($_POST['save'])) {
 
         if ($success) {
             $id = $db->lastInsertId();
+            $fullUrl = WEBSITE_URL.'/show_code.php?id='.$id;
+            create_micropost_for_the_current_user('Je viens de publier un nouveau code source : '.$fullUrl);
             redirect('show_code.php?id=' . $id);
         } else {
             set_flash("Erreur lors de l'ajout du code source.Veuillez reessayer svp !.");
@@ -45,13 +47,9 @@ if (isset($_POST['save'])) {
         }
     } else {
         redirect('share_code.php');
-        $errors[] = "Veuillez svp saisir votre code source!";
-        //save_input_data();
+
     }
 
-} else {
-
-    clear_input_data();
 }
 
 
